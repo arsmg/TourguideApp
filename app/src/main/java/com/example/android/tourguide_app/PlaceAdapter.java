@@ -13,7 +13,6 @@ import java.util.ArrayList;
 
 public class PlaceAdapter<W> extends ArrayAdapter<place> {
 
-    private static final String LOG_TAG = PlaceAdapter.class.getSimpleName();
     private int mBackgoundIdColor;
 
     /**

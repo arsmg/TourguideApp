@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class BarsFragment extends android.support.v4.app.Fragment {
 
-
+    // Override onCreateView of the fragment - connect it to list-view.xml
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -25,21 +25,21 @@ public class BarsFragment extends android.support.v4.app.Fragment {
 
         final ArrayList<place> places = new ArrayList<place>();
         places.add(new place(getString(R.string.bar_name), getString(R.string.restaurant1_description),
-                R.drawable.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                R.mipmap.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
         places.add(new place(getString(R.string.bar_name), getString(R.string.restaurant1_description),
-                R.drawable.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                R.mipmap.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
         places.add(new place(getString(R.string.bar_name), getString(R.string.restaurant1_description),
-                R.drawable.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                R.mipmap.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
         places.add(new place(getString(R.string.bar_name), getString(R.string.restaurant1_description),
-                R.drawable.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                R.mipmap.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
         places.add(new place(getString(R.string.bar_name), getString(R.string.restaurant1_description),
-                R.drawable.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                R.mipmap.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
         places.add(new place(getString(R.string.bar_name), getString(R.string.restaurant1_description),
-                R.drawable.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                R.mipmap.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
         places.add(new place(getString(R.string.bar_name), getString(R.string.restaurant1_description),
-                R.drawable.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                R.mipmap.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
         places.add(new place(getString(R.string.bar_name), getString(R.string.restaurant1_description),
-                R.drawable.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                R.mipmap.bar_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
