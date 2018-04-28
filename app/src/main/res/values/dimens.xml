@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dps -->
+    <dimen name="dp16">16dp</dimen>
+
+    <!-- sps -->
+    <dimen name="sp22">22sp</dimen>
+    <dimen name="sp14">14sp</dimen>
+</resources>

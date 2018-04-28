@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="location_name">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp22</item>
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+
+    <style name="location_description">
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:layout_below">@id/location_name</item>
+    </style>
+
+    <style name="location_symbol">
+        <item name="android:layout_below">@id/location_description</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="locations_location">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_below">@id/location_description</item>
+        <item name="android:layout_toRightOf">@id/location_symbol</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
+    </style>
+
+    <style name="open_hours">
+        <item name="android:paddingRight">@dimen/sp22</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
+    </style>
+
+</resources>

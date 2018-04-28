@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="lightPrimaryColor">#FFECB3</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="sights_tab">#FFCDD2</color>
+    <color name="museums_tab">#BBDEFB</color>
+    <color name="bars_tab">#B2DFDB</color>
+</resources>

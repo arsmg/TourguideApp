@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="restaurants">restaurants</string>
+    <string name="museums">museums</string>
+    <string name="sites">sites</string>
+    <string name="bars">bars</string>
+
+    <string name="app_name">Tourguide_App</string>
+
+    <string name="resraurant1_name">Restorant Name</string>
+    <string name="sight_name">Sight</string>
+    <string name="bar_name">Bar</string>
+    <string name="museum_name">Museum</string>
+    <string name="restaurant1_description">Description</string>
+    <string name="restaurant1_address">Address</string>
+    <string name="open_hours_1">Open hours</string>
+
+</resources>
