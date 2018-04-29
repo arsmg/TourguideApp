@@ -29,24 +29,23 @@ public class RestaurantsFragment extends Fragment {
 
         final ArrayList<place> places = new ArrayList<place>();
                 places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
-                        R.mipmap.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
                 places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
-                        R.mipmap.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
                 places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
-                        R.mipmap.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
                 places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
-                        R.mipmap.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
                 places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
-                        R.mipmap.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
                 places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
-                        R.mipmap.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
                 places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
-                        R.mipmap.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
                 places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
-                        R.mipmap.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
-
-
-
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
+                places.add(new place(getString(R.string.resraurant1_name), getString(R.string.restaurant1_description),
+                        R.drawable.restaurant_image, getString(R.string.restaurant1_address),getString(R.string.open_hours_1)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
